@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+    <h1>R4iner</h1>
+    <h2>R4iner</h2>
+    <h3>R4iner</h3>
+    <h4>R4iner</h4>
+    <h5>R4iner</h5>
+    <h6>R4iner</h6>
+    <p>台灣大到七段 靜宜大學</p>
+    <p>台灣大到七段<br> 靜宜大學</p>
+
+    <h1>台灣蔬食</h1>
+    <ul>
+        <li>高麗菜</li>
+        <li>空心菜</li>
+    </ul>
+
+    <ol type="a" start="4">
+        <li>高麗菜</li>
+        <li>空心菜</li>
+    </ol>
+
+    <dl>
+        <dt>Vegetable</dt>
+        <dd>高麗菜</dd>
+        <dd>空心菜</dd>
+        <dt>Drink</dt>
+        <dd>奶茶</dd>
+        <dd>紅茶</dd>
+    </dl>
+</body>
+</html>
