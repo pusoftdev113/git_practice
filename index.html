@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自我介紹網站</title>
+    <style>
+        /* 重置一些默認樣式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        section p, section ul {
+            font-size: 1.2rem;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+            border: 5px solid #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>歡迎來到我的自我介紹網站</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">關於我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#contact">聯絡我</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>關於我</h2>
+        <p>大家好，我是李宥萱，我是一位熱愛程式設計的網站開發者。</p>
+        <img src="your-photo.jpg" alt="我的照片">
+    </section>
+
+    <section id="skills">
+        <h2>我的技能</h2>
+        <ul>
+            <li>HTML / CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>聯絡我</h2>
+        <p>如果您想與我聯絡，可以通過以下方式：</p>
+        <ul>
+            <li>Email: your-email@example.com</li>
+            <li>電話: 123-456-7890</li>
+        </ul>
+        <button onclick="showContactForm()">發送訊息</button>
+
+        <div id="contact-form" style="display: none;">
+            <h3>聯絡表單</h3>
+            <form>
+                <label for="name">姓名:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="message">訊息:</label><br>
+                <textarea id="message" name="message" required></textarea><br><br>
+                <button type="submit">送出</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025李宥萱. 版權所有.</p>
+    </footer>
+
+    <script>
+        function showContactForm() {
+            const form = document.getElementById('contact-form');
+            form.style.display = form.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
