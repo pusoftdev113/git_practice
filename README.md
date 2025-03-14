@@ -20,7 +20,76 @@
 
 # Markdown語法練習區⬇️⬇️⬇️
 
+# H1 標題
+## H2 標題
+### H3 標題
+#### H4 標題
 
+**這是粗體**
+*這是斜體*
 
+- 第一項
+- 第二項
+  - 子項
+  - 子項
 
+1. 第一項
+2. 第二項
+   1. 子項
+   2. 子項
 
+`這是一行程式碼`
+
+```python
+# 這是Python程式碼區塊
+print("Hello, World!")
+```
+
+```mermaid
+mindmap
+  root ((網頁前端
+         程式設計))
+    HTML
+      靜態網頁
+      語義化標記
+      結構化內容
+
+    CSS
+      佈局與排版
+      框架
+        CSS預處理器(Sass,Less)
+        Bootstrap響應式設計 
+
+    UI/UX介面設計
+      Figma
+      
+    JavaScript
+      語言特性
+        DOM操作
+        非同步編譯 (Promises, async/await)
+      框架與函式庫
+        jQuery
+        Node.js
+    程式碼存放與版本控制
+      Git
+      Github
+```
+![image](https://github.com/user-attachments/assets/8aa1f194-db8c-4b76-9799-163053c15236)
+
+$$
+E = mc^2
+$$
+
+[GitHub] (https://github.com)
+![替代文字] (https://picsum.photos/200/300)
+
+>這是一個引用
+
+---
+
+區隔過後
+
+| 表頭1 | 表頭2 |
+| ----- | ----- |
+| 單元格1 | 單元格2 |
+| 單元格3 | 單元格4 |
