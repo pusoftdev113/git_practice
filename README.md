@@ -73,8 +73,7 @@ $$
 E=mc^2
 $$
 
-[Github](https://garylin11111.github.io/git_practice/)
-![這是圖片]https://picsum.photos/id/237/200/300
+[Github](https://garylin11111.github.io/git_practice/)![這是圖片](https://picsum.photos/id/237/200/300)
 
 
 
