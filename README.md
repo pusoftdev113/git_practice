@@ -68,7 +68,6 @@ mindmap
       Git
       Github
 ```
-![image] (https://github.com/user-attachments/assets/dc3017db-ffbf-4f9b-8d00-2a54c3472f05)
 
 $$
 E=mc^2
